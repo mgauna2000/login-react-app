@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { Suspense } from 'react'
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import Login from '../src/components/Login'
 
 function App() {
   return (
-    <div>
-      
-    </div>
+    <Login />
+    // <Router>
+    //   <Suspense fallback={<p>loading...</p>}>
+    //     <Switch>
+
+    //     </Switch>
+    //   </Suspense>
+    // </Router>
   )
 }
 
